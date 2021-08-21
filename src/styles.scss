@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(215, 230, 230);
+}
+.row {
+  background: white;
+  border-radius: 30px;
+  box-shadow: 12px 12px 20px grey;
+}
+img {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+a {
+  margin: 10px 10px;
+}
+p {
+  margin: 10px 10px;
+}
+.btn1 {
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.btn1:hover {
+  background: white;
+  color: black;
+  border: 1px solid;
+}
